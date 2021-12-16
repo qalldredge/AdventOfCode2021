@@ -52,9 +52,11 @@
 		</Item>
 		<Item Name="Day 14" Type="Folder" URL="../Day 14">
 			<Property Name="NI.DISK" Type="Bool">true</Property>
+			<Property Name="NI.SortType" Type="Int">0</Property>
 		</Item>
 		<Item Name="Day 15" Type="Folder" URL="../Day 15">
 			<Property Name="NI.DISK" Type="Bool">true</Property>
+			<Property Name="NI.SortType" Type="Int">0</Property>
 		</Item>
 		<Item Name="Day 16" Type="Folder" URL="../Day 16">
 			<Property Name="NI.DISK" Type="Bool">true</Property>
@@ -89,6 +91,9 @@
 		<Item Name="Script Setup Advent of Code.vi" Type="VI" URL="../Script Setup Advent of Code.vi"/>
 		<Item Name="Template VI.vit" Type="VI" URL="../Template VI.vit"/>
 		<Item Name="Dependencies" Type="Dependencies">
+			<Item Name="user.lib" Type="Folder">
+				<Item Name="String to Character Array__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/string/string.llb/String to Character Array__ogtk.vi"/>
+			</Item>
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="Alignment.ctl" Type="VI" URL="/&lt;vilib&gt;/LabVIEW Icon API/lv_icon/Controls/Alignment.ctl"/>
 				<Item Name="Bit-array To Byte-array.vi" Type="VI" URL="/&lt;vilib&gt;/picture/pictutil.llb/Bit-array To Byte-array.vi"/>
