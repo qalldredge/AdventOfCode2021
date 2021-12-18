@@ -60,6 +60,7 @@
 		</Item>
 		<Item Name="Day 16" Type="Folder" URL="../Day 16">
 			<Property Name="NI.DISK" Type="Bool">true</Property>
+			<Property Name="NI.SortType" Type="Int">0</Property>
 		</Item>
 		<Item Name="Day 17" Type="Folder" URL="../Day 17">
 			<Property Name="NI.DISK" Type="Bool">true</Property>
