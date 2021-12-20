@@ -67,12 +67,15 @@
 		</Item>
 		<Item Name="Day 18" Type="Folder" URL="../Day 18">
 			<Property Name="NI.DISK" Type="Bool">true</Property>
+			<Property Name="NI.SortType" Type="Int">0</Property>
 		</Item>
 		<Item Name="Day 19" Type="Folder" URL="../Day 19">
 			<Property Name="NI.DISK" Type="Bool">true</Property>
+			<Property Name="NI.SortType" Type="Int">0</Property>
 		</Item>
 		<Item Name="Day 20" Type="Folder" URL="../Day 20">
 			<Property Name="NI.DISK" Type="Bool">true</Property>
+			<Property Name="NI.SortType" Type="Int">0</Property>
 		</Item>
 		<Item Name="Day 21" Type="Folder" URL="../Day 21">
 			<Property Name="NI.DISK" Type="Bool">true</Property>
@@ -142,6 +145,8 @@
 				<Item Name="lv_icon.lvlib" Type="Library" URL="/&lt;vilib&gt;/LabVIEW Icon API/lv_icon/lv_icon.lvlib"/>
 				<Item Name="LVMapReplaceAction.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/miscctls.llb/LVMapReplaceAction.ctl"/>
 				<Item Name="LVPoint32TypeDef.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/miscctls.llb/LVPoint32TypeDef.ctl"/>
+				<Item Name="NI_AALBase.lvlib" Type="Library" URL="/&lt;vilib&gt;/Analysis/NI_AALBase.lvlib"/>
+				<Item Name="NI_Matrix.lvlib" Type="Library" URL="/&lt;vilib&gt;/Analysis/Matrix/NI_Matrix.lvlib"/>
 				<Item Name="Open File+.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Open File+.vi"/>
 				<Item Name="Pathes.ctl" Type="VI" URL="/&lt;vilib&gt;/LabVIEW Icon API/lv_icon/Controls/Pathes.ctl"/>
 				<Item Name="PCT Pad String.vi" Type="VI" URL="/&lt;vilib&gt;/picture/picture.llb/PCT Pad String.vi"/>
@@ -164,6 +169,7 @@
 				<Item Name="Unflatten Pixmap.vi" Type="VI" URL="/&lt;vilib&gt;/picture/pixmap.llb/Unflatten Pixmap.vi"/>
 				<Item Name="whitespace.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/whitespace.ctl"/>
 			</Item>
+			<Item Name="lvanlys.dll" Type="Document" URL="/&lt;resource&gt;/lvanlys.dll"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build"/>
 	</Item>
